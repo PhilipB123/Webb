@@ -1,0 +1,95 @@
+Header {
+  font-family: "Cinzel", serif;
+  font-size: 17px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: darkgreen;
+  border: 5px goldenrod;
+  border-style: solid;
+  margin: -8px;
+  padding: 1px;
+}
+
+.Other {
+  background-image: url("Winter.jpg");
+}
+.About {
+  background-image: url("Group.jpg");
+}
+
+.event {
+  display: flex;
+  justify-content: center;
+}
+
+.event .event-text {
+  font-family: "Dancing Script", cursive;
+  font-size: 68px;
+  color: darkred;
+}
+
+img {
+  width: 290px;
+  height: 350px;
+  padding: 50px;
+}
+.Stockholm {
+  width: 350px;
+  height: 300px;
+  padding: 50px;
+  padding-left: 850px;
+}
+
+.flex-container {
+  display: flex;
+  padding-right: 725px;
+}
+.flex-container > img {
+  justify-content: left;
+  width: 190px;
+  margin: 10px;
+}
+.julkulor {
+  display: flex;
+  padding-right: 725px;
+}
+table {
+  text-align: center;
+  font-family: "Quantico", sans-serif;
+  border-style: none;
+  padding: 20px;
+}
+.flex-container {
+  display: flex;
+  padding-left: 0px;
+}
+.Knapp {
+  box-shadow: 0px 0px 0px 2px #debc14;
+  background: linear-gradient(to bottom, #008a25 5%, #256b00 100%);
+  background-color: #008a25;
+  border-radius: 10px;
+  border: 1px solid #b0940a;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Times New Roman;
+  font-size: 19px;
+  padding: 10px 37px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+.Knapp:hover {
+  background: linear-gradient(to bottom, #256b00 5%, #008a25 100%);
+  background-color: #256b00;
+}
+.Knapp:active {
+  position: relative;
+  top: 1px;
+}
+p {
+  font-family: "Cinzel", serif;
+  font-size: 13px;
+  color: whitesmoke;
+  background-color: rgba(41, 41, 41, 0.48);
+  box-shadow: 4px 4px 38px 25px #292929;
+}
